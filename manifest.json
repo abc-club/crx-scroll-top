@@ -1,0 +1,22 @@
+{
+  "name": "Scroll Top",
+  "description" : "回到顶部",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "btn.png",
+    "32": "btn.png",
+    "48": "btn.png",
+    "128": "btn.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js":[
+        "index.js"
+      ]
+    }
+  ]
+}
