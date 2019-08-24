@@ -22,10 +22,16 @@ const onClick = () => {
 const injectBtn = () => {
   var body = document.querySelector('body');
   body.appendChild(createBtn());
+  displayHandler()
 };
 
 // 监听滚动，大于50px才显示按钮
 window.onscroll = function(e){
+  displayHandler()
+}
+
+// 控制按钮显示/隐藏
+const displayHandler = () => {
   var currentScroll=document.documentElement.scrollTop||document.body.scrollTop;
   var backToTopBtn = document.querySelector('#back-to-top');
   if (currentScroll >50) {
