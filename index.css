@@ -1,0 +1,36 @@
+#back-to-top{
+  opacity: 0.6; 
+  position: fixed; 
+  width: 50px; 
+  height: auto; 
+  z-index: 2147483647; 
+  border: 0px; 
+  padding: 0px; 
+  min-width: auto; 
+  min-height: auto; 
+  max-width: none; 
+  max-height: none; 
+  bottom: 100px; 
+  right: 80px; 
+  margin: 0px; 
+  cursor: pointer;
+  display:none;
+}
+#close-btn{
+  display: inline-block;
+  opacity: 0.6; 
+  position: absolute; 
+  width: 20px; 
+  height: 20px; 
+  z-index: 2147483648; 
+  border: 0px; 
+  padding: 0px; 
+  min-width: auto; 
+  min-height: auto; 
+  max-width: none; 
+  max-height: none; 
+  top: -10px; 
+  right: -10px; 
+  margin: 0px; 
+  cursor: pointer;
+}
