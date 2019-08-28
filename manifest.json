@@ -1,7 +1,7 @@
 {
   "name": "Scroll Top",
   "description" : "回到顶部",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "icons": {
     "16": "btn.png",
